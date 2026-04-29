@@ -53,25 +53,17 @@
 @media (max-width: 768px) {
   .goods-image {
     width: 80%;
-    -webkit-user-drag: none;
-    user-select: none;
   }
 
   .goods-image2 {
     width: 150px;
-    -webkit-user-drag: none;
-    user-select: none;
   }
 
   .goods-image3 {
     width: 250px;
-    -webkit-user-drag: none;
-    user-select: none;
   }
 
   .goods-image4 {
     height: 400px;
-    -webkit-user-drag: none;
-    user-select: none;
   }
 }
