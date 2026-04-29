@@ -45,7 +45,10 @@ export default function MdPage() {
 
           <h3>족자봉</h3>
 
-          <img src={COOPER21} className="goods-image4" />
+          <div className="img-wrap">
+            <img src={COOPER21} className="goods-image4" />
+            <div className="img-blocker" />
+          </div>
 
           <h5>돌 DD님 협력</h5>
           <div className="goods-divider" />
@@ -56,11 +59,18 @@ export default function MdPage() {
 
             <h3>{item.title}</h3>
 
-            {item.images ? (
-              <img src={item.images} alt={item.title} className="goods-image" />
-            ) : (
-              "준비 중입니다."
-            )}
+            <div className="img-wrap">
+              {item.images ? (
+                <img
+                  src={item.images}
+                  alt={item.title}
+                  className="goods-image"
+                />
+              ) : (
+                "준비 중입니다."
+              )}
+              <div className="img-blocker" />
+            </div>
 
             <h5>{item.author}</h5>
             <div className="goods-divider" />
@@ -72,7 +82,10 @@ export default function MdPage() {
 
           <h3>아크릴 마그넷 세트</h3>
 
-          <img src={MDLIST1} className="goods-image3" />
+          <div className="img-wrap">
+            <img src={MDLIST1} className="goods-image3" />
+            <div className="img-blocker" />
+          </div>
 
           <h5>온리전 제작</h5>
           <div className="goods-divider" />
@@ -83,7 +96,10 @@ export default function MdPage() {
 
           <h3>아크릴 뱃지</h3>
 
-          <img src={MDLIST2} className="goods-image2" />
+          <div className="img-wrap">
+            <img src={MDLIST2} className="goods-image2" />
+            <div className="img-blocker" />
+          </div>
 
           <h5>온리전 제작</h5>
           <div className="goods-divider" />
