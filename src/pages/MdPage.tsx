@@ -16,7 +16,7 @@ export default function MdPage() {
         <section className="goods-section">
           <div className="goods-divider" />
 
-          <h3>족자봉</h3>
+          <h3>족자봉 / 등신대 아크릴 스탠드</h3>
 
           <div className="img-wrap">
             <img src={COOPER21} className="goods-image4" />
